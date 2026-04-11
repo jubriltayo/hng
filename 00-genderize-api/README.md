@@ -2,10 +2,6 @@
 
 A Django-based REST API that integrates with the Genderize.io API to predict gender from names with confidence scoring.
 
-## 🚀 Live API
-
-`GET https://domain.com/api/classify?name={name}`
-
 ## 📋 Features
 
 - **Gender Prediction** - Uses Genderize.io database of name-gender associations
@@ -83,7 +79,7 @@ GET /api/classify?name={name}
     "probability": 0.94,
     "sample_size": 1824,
     "is_confident": true,
-    "processed_at": "2026-04-11T00:24:59.172366Z"
+    "processed_at": "2026-04-11T00:24:59Z"
   }
 }
 ```
@@ -131,7 +127,7 @@ curl "http://localhost:8000/api/classify"
     "probability": 1.0,
     "sample_size": 2692560,
     "is_confident": true,
-    "processed_at": "2026-04-11T00:27:50.039521Z"
+    "processed_at": "2026-04-11T00:27:50Z"
   }
 }
 ```
@@ -146,7 +142,7 @@ curl "http://localhost:8000/api/classify"
     "probability": 0.56,
     "sample_size": 14269,
     "is_confident": false,
-    "processed_at": "2026-04-11T00:29:07.801419Z"
+    "processed_at": "2026-04-11T00:24:07Z"
   }
 }
 ```

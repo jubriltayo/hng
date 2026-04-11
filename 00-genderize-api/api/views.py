@@ -57,7 +57,7 @@ def classify_name(request):
     is_confident = (probability >= 0.7) and (sample_size >= 100)
 
     # Generate timestamp
-    processed_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    processed_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
     # Success response
     response_data = {
