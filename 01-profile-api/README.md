@@ -1,4 +1,3 @@
-```markdown
 # Profile Management API
 
 A Django-based REST API that integrates with Genderize, Agify, and Nationalize APIs to create enriched user profiles with gender, age, and nationality predictions.
