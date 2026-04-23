@@ -1,4 +1,4 @@
-# Intelligence Query Engine - Stage 2
+# Intelligence Query Engine
 
 A Django-based REST API that provides advanced demographic querying with filtering, sorting, pagination, and natural language search capabilities.
 
